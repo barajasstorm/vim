@@ -1,0 +1,20 @@
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
+
+Bundle 'kien/ctrlp.vim'
+Bundle 'Raimondi/delimitMate'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Shougo/neocomplcache.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'majutsushi/tagbar'
+Bundle 'othree/javascript-libraries-syntax.vim'
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'bling/vim-airline'
+Bundle 'mhinz/vim-signify'
+Bundle 'dkprice/vim-easygrep'
+Bundle 'ngmy/vim-rubocop'
+
+call vundle#end()
