@@ -12,6 +12,9 @@ vim +PluginInstall +qall
 
 git clone https://github.com/Lokaltog/powerline-fonts.git ~/.fonts
 rm -rf ~/.fonts/.git
+fc-cache -vf ~/.fonts
+sudo fc-cache -vf
+gconftool-2 --set /apps/gnome-terminal/profiles/Default/font --type string "DejaVu Sans Mono for Powerline 11"
 
-brew install node
+sudo apt-get install node
 sudo npm install -g jshint
